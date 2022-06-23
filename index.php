@@ -9,7 +9,7 @@
     fatta da Apelle,
     figlio di Apollo.";
     
-    $censored_word = $_GET['censored'];
+    $censored_word = $_GET['censored_word'];
 
     $censored_nursery_rhyme = str_replace($censored_word, "***", $nursery_rhyme);
 ?>
